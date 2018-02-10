@@ -15,6 +15,8 @@ end
 group :production do
   gem 'pg','~> 0.18'
 end
+gem 'devise'
+gem 'bcrypt-ruby'
 gem 'carrierwave'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
